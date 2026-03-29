@@ -37,7 +37,7 @@ def reglas(hora):
 
 inicio = "Suba"
 fin = "Sur"
-hora = 11
+hora = 11 
 
 reglas(hora)
 costo, ruta = dijkstra(grafo, inicio, fin)
